@@ -21,7 +21,7 @@ app.include_router(symptom_standardizer.router, prefix="/risk/symptom_standardiz
 
 
 # Ensure logs directory exists
-os.makedirs("Pandemic intelligence & response OS/logs", exist_ok=True)
+os.makedirs("Pandemic-intelligence---response-OS/logs", exist_ok=True)
 
 # Configure logging to write to file
 logging.basicConfig(

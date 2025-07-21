@@ -2,18 +2,18 @@ import joblib
 import os
 
 def load_multi_region_model():
-    model_path = os.path.join("..","Pandemic intelligence & response OS", "Multi-Region Outbreak Correlation Model", "model", "multi_region_model.pkl")
+    model_path = os.path.join("..","Pandemic-intelligence---response-OS", "Multi-Region Outbreak Correlation Model", "model", "multi_region_model.pkl")
     return joblib.load(model_path)
 
 
 
 def load_primary_outbreak_model():
-    model_path = os.path.join("..","Pandemic intelligence & response OS","Primary Outbreak Risk Predictor", "model", "auto_trained_model.pkl")
+    model_path = os.path.join("..","Pandemic-intelligence---response-OS","Primary Outbreak Risk Predictor", "model", "auto_trained_model.pkl")
     return joblib.load(model_path)
 
 
 def load_primary_outbreak_scaler():
-    scaler_path = os.path.jio("..","Pandemic intelligence & response OS","Primary Outbreak Risk Predictor", "model", "feature_scaler.pkl")
+    scaler_path = os.path.jio("..","Pandemic-intelligence---response-OS","Primary Outbreak Risk Predictor", "model", "feature_scaler.pkl")
     return joblib.load(scaler_path)
 
 
