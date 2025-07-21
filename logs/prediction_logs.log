@@ -1,0 +1,1280 @@
+2025-07-21 20:18:35,774 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:18:54,704 - INFO - Incoming raw input: {'cluster_score': 5.272, 'mobility_index': 87.665, 'residential_change': 0.131, 'transport_usage': 0.074, 'icu_usage_per_1000': 0.021, 'tweet_volume': 0.005, 'sentiment_score': 757.013, 'temp_avg': -0.205, 'humidity': 30.328, 'air_quality_index': 66.055, 'rainfall_mm': 103.954, 'keyword_0': 0, 'keyword_1': 0, 'keyword_2': 0, 'keyword_3': 0, 'keyword_4': 0}
+2025-07-21 20:18:54,734 - INFO - Raw features before scaling:
+   cluster_score  mobility_index  residential_change  ...  keyword_2  keyword_3  keyword_4
+0          5.272          87.665               0.131  ...          0          0          0
+
+[1 rows x 16 columns]
+2025-07-21 20:18:54,734 - INFO - No scaling applied. Using raw features.
+2025-07-21 20:18:54,744 - INFO - Prediction: 1, Probability: 0.4833, Message: Outbreak Likely
+2025-07-21 20:19:26,132 - INFO - Incoming raw input: {'cluster_score': 0.9, 'mobility_index': 0.95, 'residential_change': -0.5, 'transport_usage': 0.8, 'icu_usage_per_1000': 4.9, 'tweet_volume': 1800.0, 'sentiment_score': -0.7, 'temp_avg': 39.5, 'humidity': 85.0, 'air_quality_index': 320.0, 'rainfall_mm': 2.5, 'keyword_0': 1, 'keyword_1': 1, 'keyword_2': 1, 'keyword_3': 1, 'keyword_4': 1}
+2025-07-21 20:19:26,179 - INFO - Raw features before scaling:
+   cluster_score  mobility_index  residential_change  ...  keyword_2  keyword_3  keyword_4
+0            0.9            0.95                -0.5  ...          1          1          1
+
+[1 rows x 16 columns]
+2025-07-21 20:19:26,179 - INFO - No scaling applied. Using raw features.
+2025-07-21 20:19:26,190 - INFO - Prediction: 0, Probability: 0.2139, Message: No Outbreak
+2025-07-21 20:20:07,395 - INFO - Incoming raw input: {'cluster_score': 5.272, 'mobility_index': 87.665, 'residential_change': 0.131, 'transport_usage': 0.074, 'icu_usage_per_1000': 0.021, 'tweet_volume': 0.005, 'sentiment_score': 757.013, 'temp_avg': -0.205, 'humidity': 30.328, 'air_quality_index': 66.055, 'rainfall_mm': 103.954, 'keyword_0': 0, 'keyword_1': 0, 'keyword_2': 0, 'keyword_3': 0, 'keyword_4': 0}
+2025-07-21 20:20:07,405 - INFO - Raw features before scaling:
+   cluster_score  mobility_index  residential_change  ...  keyword_2  keyword_3  keyword_4
+0          5.272          87.665               0.131  ...          0          0          0
+
+[1 rows x 16 columns]
+2025-07-21 20:20:07,405 - INFO - No scaling applied. Using raw features.
+2025-07-21 20:20:07,415 - INFO - Prediction: 1, Probability: 0.4833, Message: Outbreak Likely
+2025-07-21 20:20:27,014 - INFO - Incoming raw input: {'cluster_score': 0.9, 'mobility_index': 0.95, 'residential_change': -0.5, 'transport_usage': 0.8, 'icu_usage_per_1000': 4.9, 'tweet_volume': 1800.0, 'sentiment_score': -0.7, 'temp_avg': 39.5, 'humidity': 85.0, 'air_quality_index': 320.0, 'rainfall_mm': 2.5, 'keyword_0': 0, 'keyword_1': 0, 'keyword_2': 0, 'keyword_3': 0, 'keyword_4': 0}
+2025-07-21 20:20:27,023 - INFO - Raw features before scaling:
+   cluster_score  mobility_index  residential_change  ...  keyword_2  keyword_3  keyword_4
+0            0.9            0.95                -0.5  ...          0          0          0
+
+[1 rows x 16 columns]
+2025-07-21 20:20:27,023 - INFO - No scaling applied. Using raw features.
+2025-07-21 20:20:27,031 - INFO - Prediction: 0, Probability: 0.285, Message: No Outbreak
+2025-07-21 20:37:46,756 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:38:19,112 - INFO - Incoming Request Data: {'population': 1200000, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}
+2025-07-21 20:38:19,118 - INFO - Processed Input Data: [{'log_population': 13.997832948091215, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}]
+2025-07-21 20:38:19,133 - INFO - Prediction Result: {'predicted_spread_probability': 0.4406, 'input_summary': {'population': 1200000, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}, 'explanation': {'R0_estimate': 'High R\u2080 (2.8) means fast transmission.', 'population': 'Large population (1,200,000) leads to high exposure risk.', 'avg_contact_rate': 'Contact rate of 7.20 increases spread.', 'avg_daily_mobility': 'Mobility 3.50 increases inter-regional risk.', 'policy_effectiveness_score': 'Policy score of 0.6 reflects mitigation efforts.', 'transmission_route_from_enc': 'Route encoding 1 denotes spread channel.'}, 'predicted_eta_days': 7.79, 'Predicted Spread Prob': 0.4406}
+2025-07-21 20:44:12,866 - INFO - Incoming Request Data: {'population': 1200000, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}
+2025-07-21 20:44:12,870 - INFO - Processed Input Data: [{'log_population': 13.997832948091215, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}]
+2025-07-21 20:44:12,888 - INFO - Prediction Result: {'predicted_spread_probability': 0.4406, 'input_summary': {'population': 1200000, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}, 'explanation': {'R0_estimate': 'High R\u2080 (2.8) means fast transmission.', 'population': 'Large population (1,200,000) leads to high exposure risk.', 'avg_contact_rate': 'Contact rate of 7.20 increases spread.', 'avg_daily_mobility': 'Mobility 3.50 increases inter-regional risk.', 'policy_effectiveness_score': 'Policy score of 0.6 reflects mitigation efforts.', 'transmission_route_from_enc': 'Route encoding 1 denotes spread channel.'}, 'predicted_eta_days': 7.79, 'Predicted Spread Prob': 0.4406}
+2025-07-21 20:44:53,293 - INFO - Incoming raw input: {'cluster_score': 5.272, 'mobility_index': 87.665, 'residential_change': 0.131, 'transport_usage': 0.074, 'icu_usage_per_1000': 0.021, 'tweet_volume': 0.005, 'sentiment_score': 757.013, 'temp_avg': -0.205, 'humidity': 30.328, 'air_quality_index': 66.055, 'rainfall_mm': 103.954, 'keyword_0': 0, 'keyword_1': 0, 'keyword_2': 0, 'keyword_3': 0, 'keyword_4': 0}
+2025-07-21 20:44:53,311 - INFO - Raw features before scaling:
+   cluster_score  mobility_index  residential_change  ...  keyword_2  keyword_3  keyword_4
+0          5.272          87.665               0.131  ...          0          0          0
+
+[1 rows x 16 columns]
+2025-07-21 20:44:53,311 - INFO - No scaling applied. Using raw features.
+2025-07-21 20:44:53,325 - INFO - Prediction: 1, Probability: 0.4833, Message: Outbreak Likely
+2025-07-21 20:52:50,489 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:53:12,087 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:53:52,044 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:54:48,990 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:55:00,308 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:56:05,294 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:56:10,957 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 20:56:53,574 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:02:29,069 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:03:56,350 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:04:24,328 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-07-21 21:05:31,406 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:05:43,531 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-21 21:05:43,531 - INFO - Retrying request to /chat/completions in 0.488382 seconds
+2025-07-21 21:05:44,754 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-21 21:05:44,755 - INFO - Retrying request to /chat/completions in 0.789731 seconds
+2025-07-21 21:05:46,262 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-21 21:14:58,699 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:28:39,477 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:28:46,960 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:29:03,939 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:33:17,220 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:35:26,997 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:38:34,374 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:38:36,575 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:39:01,012 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:39:21,420 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:39:24,574 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:39:26,591 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:39:29,727 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:15,946 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:19,249 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:22,066 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:24,877 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:26,878 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:29,113 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:40:59,401 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:41:03,241 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:41:11,445 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:41:14,275 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:43:20,322 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:44:11,263 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:44:17,429 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:44:19,702 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:44:24,632 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:44:58,505 - INFO - Received risk assessment request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:44:58,505 - INFO - Generated prompt: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:45:18,465 - INFO - Gemini response: This 65-year-old male in Delhi with diabetes and hypertension, experiencing fever and dry cough, presents a **high risk** for severe illness.  His age, pre-existing conditions (especially diabetes, which increases COVID-19 severity), sedentary lifestyle, and smoking all significantly increase his vulnerability.  The symptoms suggest a respiratory infection, which could be COVID-19 or another serious illness.  Immediate medical attention is strongly advised for diagnosis and management.  The high air pollution levels in Delhi further exacerbate his risk. | 
+2025-07-21 21:47:56,101 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:48:14,681 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:48:14,681 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:48:30,373 - INFO - Gemini response: This 65-year-old male in Delhi with diabetes, hypertension, a sedentary lifestyle, and a smoking history presenting with fever and dry cough is at **high risk** for serious complications.  His pre-existing conditions significantly increase his vulnerability to severe respiratory infections, including pneumonia and COVID-19.  The combination of age, comorbidities, and lifestyle factors makes him particularly susceptible to adverse outcomes.  Urgent medical evaluation is strongly recommended. | 
+2025-07-21 21:53:37,039 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:53:45,306 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:53:47,381 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:53:57,998 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:54:03,699 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:54:06,986 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:54:18,706 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:54:23,114 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:54:54,209 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:54:54,209 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:58:36,140 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:58:36,141 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:59:22,755 - INFO - Gemini response: This 65-year-old male in Delhi with diabetes and hypertension, presenting with fever and dry cough, faces a **high risk** of serious illness.  His age, pre-existing conditions (particularly diabetes which increases the severity of respiratory infections), sedentary lifestyle, and smoking history all significantly increase his vulnerability.  The symptoms suggest a possible respiratory infection, which could easily develop into pneumonia or exacerbate his existing conditions.  Immediate medical attention is strongly advised for proper diagnosis and treatment to mitigate the risk of severe complications and hospitalization.  The air pollution in Delhi further compounds his risk. | 
+2025-07-21 21:59:30,959 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    logger.info("Prompt constructed: %s", prompt.replace('\n', ' | '))
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    def run_gemini(prompt: str) -> str:
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-21 21:59:34,476 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 21:59:35,137 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:59:35,137 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:59:36,772 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 56, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 45, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+2025-07-21 21:59:56,914 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:59:56,914 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:59:57,201 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 56, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 45, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-07-21 22:00:00,625 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:00:00,625 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:00:00,929 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 56, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 45, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-07-21 22:00:02,701 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:00:02,703 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:00:02,996 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 56, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 45, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-07-21 22:01:42,272 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:02:06,352 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:06,352 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:08,113 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 56, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 45, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-07-21 22:02:22,732 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:02:25,161 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:25,161 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:28,162 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-21 22:02:45,003 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:45,003 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:45,308 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-21 22:02:46,424 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:46,424 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:46,713 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-07-21 22:06:30,592 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:06:30,593 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:06:30,944 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-21 22:06:33,891 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:06:33,892 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:06:34,200 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-21 22:06:59,793 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:07:11,272 - INFO - Received risk assessment request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:07:11,273 - INFO - Generated prompt: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:07:56,952 - ERROR - Error during risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-07-21 22:08:01,850 - INFO - Received risk assessment request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:08:01,851 - INFO - Generated prompt: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:08:02,154 - ERROR - Error during risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-07-21 22:08:11,272 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:10:32,366 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:10:44,947 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:10:46,773 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:10:58,522 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:11:11,506 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:11:30,341 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:12:16,976 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:12:29,142 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:12:31,624 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:12:44,372 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:12:57,025 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:13:14,225 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:13:14,225 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:15:25,324 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 52, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 41, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-07-21 22:15:28,839 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:15:39,521 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:16:04,376 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:16:20,522 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:16:30,073 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:16:42,086 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:16:54,574 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:16:56,641 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:17:02,928 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:17:11,188 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:33:24,852 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:36:59,665 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:37:11,852 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e73bf-2cf2d4867d2b33c50387bd87;0c0d67cc-b7d4-436d-ba8e-5af8a400701e)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:37:25,829 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:37:42,142 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:38:39,993 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:38:44,076 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:38:45,657 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:38:49,254 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7421-4067755c572bd5c92c1ec819;d3521428-d0f0-4e3d-afd9-a616c0cc3aa4)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:38:50,778 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:39:02,487 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:39:05,675 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7431-411da661670d7fb74cbe1c97;afaccd9b-5fb8-4b53-8cb8-0b990c00b7d5)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:39:19,153 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:39:22,231 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7442-23540fd736c6b05d747c7f6a;dbc20bee-9e94-48b9-8c8d-aca137bc359d)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:39:24,341 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:39:27,232 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7447-43b9846d1fdcff3b0d70b021;97743efb-64e3-4b7c-aea9-81eb6e353f1f)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:40:10,186 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:40:13,421 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7475-707a846b2cbd8cf90d16ffd7;ead87ded-6e57-4d62-903e-e45fa0ea6864)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:49:56,262 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:49:57,622 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:50:02,427 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e76c2-2cb2bfb208109a9b4f3f0347;fee8a1fb-f771-4e6c-a4b5-95ee6c07a886)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:50:57,566 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:51:01,130 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e76fd-3a2391b1516ab0cf250c6423;9c5de060-e1e0-4d69-bc8d-a307819ec4bd)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:51:23,325 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:51:26,292 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7716-5ba717657173403b301b90a6;d069ab61-c61c-434f-b6a5-43dc13660a95)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:01,092 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:53:04,065 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7778-694bbdd92aa974dc0c099300;012b2996-3371-4752-aaf5-1757656e43be)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:05,512 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:53:08,604 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e777c-158ab264783a3a1d3aa141f1;3022350e-a58e-46e3-a39e-f9db9bdad980)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:16,291 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:53:19,890 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7788-59d0583a7e580fa67996d5dc;03b9bb65-63b0-4b2a-93e2-a222ed6de489)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:21,441 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:53:24,333 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e778c-7e647d63536691dd4fcb186d;eebab741-aa18-47a8-8006-059c8f97a701)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:30,926 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:53:59,036 - INFO - Received personal risk request: {'age': 45, 'gender': 'Male', 'location': 'Mumbai', 'pre_existing_conditions': ['hypertension'], 'symptoms': ['fever', 'cough'], 'lifestyle_factors': ['smoking', 'sedentary']}
+2025-07-21 22:53:59,037 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 45 | Gender: Male | Location: Mumbai | Pre-existing conditions: hypertension | Symptoms: fever, cough | Lifestyle factors: smoking, sedentary | Please return a brief medical risk assessment.
+2025-07-21 22:54:14,228 - INFO - Ollama response:  Based on the provided information, this individual is a 45-year-old male living in Mumbai with pre-existing hypertension and current symptoms of fever and cough. Additionally, he is a smoker and leads a sedentary lifestyle. |  | Given these factors, the current symptoms suggest a possible respiratory infection. The pre-existing condition of hypertension combined with smoking increases the risk for complications from this illness, such as pneumonia or acute respiratory distress syndrome (ARDS). It's crucial that he seeks medical attention promptly to minimize potential health risks and receive appropriate treatment. |  | As a precautionary measure due to his compromised health status, it is advisable for him to avoid crowds and practice social distancing to reduce the risk of contracting or spreading infectious diseases like COVID-19. Regular monitoring of blood pressure and overall health conditions should also be maintained.
+2025-07-21 22:55:14,942 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:55:36,386 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:55:50,572 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:55:55,122 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:56:00,599 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:56:29,031 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:56:42,224 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 22:58:40,672 - INFO - Received personal risk request: {'contact_duration_minutes': 30, 'location_type': 'market', 'mask_used': False, 'social_distancing_followed': False, 'contact_symptoms': ['fever', 'sore throat'], 'contact_travel_history': True, 'vaccination_status': 'partially vaccinated', 'user_health_conditions': ['diabetes']}
+2025-07-21 22:58:40,674 - INFO - Prompt constructed:  | You are an expert epidemiologist. Assess the COVID-19 risk from the following contact encounter: |  | - Contact Duration: 30 minutes | - Location Type: market | - Mask Used: No | - Social Distancing Followed: No | - Contact’s Symptoms: fever, sore throat | - Contact Travel History: Yes | - User’s Vaccination Status: partially vaccinated | - User’s Health Conditions: diabetes |  | Based on these details, provide a risk assessment on a scale of LOW, MODERATE, HIGH. Also explain the reasoning. | 
+2025-07-21 22:58:59,402 - INFO - Ollama response:  Given the provided information, this contact encounter presents a **HIGH RISK** for COVID-19 transmission. Here's why: |  | 1. Contact Duration (30 minutes): Longer exposure durations increase the chances of infection, especially in high-risk settings like markets. |  | 2. Location Type (market): Markets are crowded places where social distancing is challenging and people often come into close contact with each other. This increases the likelihood of virus transmission. |  | 3. Mask Used (No): Not wearing a mask significantly reduces protection against respiratory diseases, including COVID-19. |  | 4. Social Distancing Followed (No): Lack of social distancing further enhances the risk of infection. |  | 5. Contact's Symptoms (fever, sore throat): These are common symptoms associated with COVID-19, indicating that the contact person might be infected. |  | 6. Contact Travel History (Yes): If the contact has traveled recently, there is a higher possibility they have been exposed to various pathogens, including SARS-CoV-2, the virus responsible for COVID-19. |  | 7. User's Vaccination Status (partially vaccinated): While being partially vaccinated offers some protection against severe disease and hospitalization, it does not eliminate the risk of infection or transmission. |  | 8. User's Health Conditions (diabetes): People with certain underlying health conditions, such as diabetes, are at increased risk for severe complications from COVID-19 if infected. |  | Given these factors, it is essential to take precautions, such as getting tested for COVID-19, self-isolating, and informing healthcare providers about this exposure, especially considering the user's health condition and partial vaccination status.
+2025-07-21 23:00:40,524 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:01:30,977 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:01:49,860 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:01:54,544 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:02,394 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:22,525 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:27,172 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:32,395 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:38,927 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:43,333 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:49,567 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:02:59,734 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:03:26,700 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:04:22,080 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:04:29,634 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:04:34,104 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:04:41,443 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:04:54,649 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:05:00,592 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:05:05,050 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:05:09,674 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:05:14,312 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:05:38,019 - INFO - Generating explainability for: {'age': 65, 'gender': 'Male', 'location': 'Mumbai', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['shortness of breath', 'chest pain'], 'lifestyle_factors': ['smoking', 'sedentary lifestyle']}
+2025-07-21 23:06:15,030 - INFO - Generated explanation:  1. Initial assessment: The patient is a 65-year-old male residing in Mumbai with pre-existing conditions of diabetes and hypertension. Recent symptoms include shortness of breath and chest pain, and he has a history of smoking and leading a sedentary lifestyle.
+
+2. Prioritizing symptoms: The patient's primary concern is the recent onset of shortness of breath and chest pain, which could be indicative of heart-related issues or respiratory complications due to diabetes. These symptoms are urgent and require immediate medical attention as they can potentially worsen rapidly if left untreated.
+
+3. Pre-existing conditions: The patient's pre-existing conditions of diabetes and hypertension increase the risk for further cardiovascular disease, kidney damage, nerve damage, and foot problems. Proper management of these conditions is crucial to reduce the health risks associated with them.
+
+4. Lifestyle factors: Smoking and a sedentary lifestyle are significant risk factors that can contribute to heart disease, lung cancer, and other chronic diseases. The patient should be encouraged to quit smoking and adopt a more active lifestyle to improve their overall health.
+
+5. Age and gender: Being 65 years old puts the patient in an older age group, which is associated with higher risks of age-related health issues like cardiovascular disease, stroke, dementia, cancer, and osteoporosis. Men are generally at a higher risk for prostate cancer than women.
+
+6. Location: Living in Mumbai could potentially expose the patient to air pollution, which can exacerbate respiratory issues such as shortness of breath. It is essential to consider this environmental factor when evaluating the patient's health risks.
+
+7. Comprehensive evaluation and management plan: Based on the above factors, a thorough examination by a healthcare professional should be conducted to determine the root cause of the symptoms, assess the patient's overall health status, and develop an appropriate treatment plan. This might include diagnostic tests like an electrocardiogram (ECG), chest X-ray, or blood tests to evaluate heart function, lung health, and blood sugar levels.
+
+8. Potential interventions: The treatment plan may involve managing the pre-existing conditions with medications, lifestyle modifications, and regular follow-up appointments with a healthcare provider. For acute symptoms like shortness of breath and chest pain, emergency medical intervention might be necessary to prevent further complications. Lifestyle changes such as quitting smoking, adopting a more active lifestyle, maintaining a healthy diet, and stress management can help improve the patient's overall health and reduce the risk of future complications.
+
+9. Ongoing monitoring: Close follow-up with healthcare professionals is crucial to monitor the patient's progress, adjust medications as necessary, and address any new or worsening symptoms promptly. Early detection and management of potential complications can help ensure the best possible outcomes for the patient.
+
+10. Education and support: The patient should be educated on their conditions, the importance of adhering to their treatment plan, and the role of lifestyle modifications in managing their health risks. Offering emotional and practical support can also help improve their quality of life and overall well-being.
+2025-07-21 23:08:22,765 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:08:54,215 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:09:11,468 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:09:16,018 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:09:20,530 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:09:26,367 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:09:56,532 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:01,048 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:05,617 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:10,392 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:16,157 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:20,702 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:25,235 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:10:29,894 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:11:25,545 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:11:35,399 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:11:39,902 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:11:47,934 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:12:07,511 - WARNING - Scaler not loaded: module 'ntpath' has no attribute 'jio'
+2025-07-21 23:12:40,719 - INFO - Standardizing symptoms for input: I feel pain in my chest and I can't breathe properly
+2025-07-21 23:12:47,842 - INFO - Standardized output:  Chest Pain, Dyspnea
+2025-07-21 23:15:54,007 - INFO - Standardizing symptoms for input: I feel pain in my chest and I can't breathe properly
+2025-07-21 23:15:57,365 - INFO - Standardized output:  Chest Pain, Dyspnea (Shortness of Breath), Respiratory Insufficiency

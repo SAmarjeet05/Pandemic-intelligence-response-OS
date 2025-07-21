@@ -1,0 +1,4 @@
+2025-07-21 20:38:19,112 - INFO - Incoming Request Data: {'population': 1200000, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}
+2025-07-21 20:38:19,118 - INFO - Processed Input Data: [{'log_population': 13.997832948091215, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}]
+2025-07-21 20:44:12,866 - INFO - Incoming Request Data: {'population': 1200000, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}
+2025-07-21 20:44:12,870 - INFO - Processed Input Data: [{'log_population': 13.997832948091215, 'avg_daily_mobility': 3.5, 'avg_contact_rate': 7.2, 'R0_estimate': 2.8, 'policy_effectiveness_score': 0.6, 'transmission_route_from_enc': 1}]

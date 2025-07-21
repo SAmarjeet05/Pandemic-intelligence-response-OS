@@ -1,0 +1,567 @@
+2025-07-21 21:54:54,209 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:54:54,209 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:58:36,140 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 21:58:36,141 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 21:59:22,755 - INFO - Gemini response: This 65-year-old male in Delhi with diabetes and hypertension, presenting with fever and dry cough, faces a **high risk** of serious illness.  His age, pre-existing conditions (particularly diabetes which increases the severity of respiratory infections), sedentary lifestyle, and smoking history all significantly increase his vulnerability.  The symptoms suggest a possible respiratory infection, which could easily develop into pneumonia or exacerbate his existing conditions.  Immediate medical attention is strongly advised for proper diagnosis and treatment to mitigate the risk of severe complications and hospitalization.  The air pollution in Delhi further compounds his risk. | 
+2025-07-21 21:59:30,959 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    logger.info("Prompt constructed: %s", prompt.replace('\n', ' | '))
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    def run_gemini(prompt: str) -> str:
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-21 22:02:25,161 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:25,161 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:28,162 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-21 22:02:45,003 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:45,003 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:45,308 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-21 22:02:46,424 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:02:46,424 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:02:46,713 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-07-21 22:06:30,592 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:06:30,593 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:06:30,944 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-21 22:06:33,891 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:06:33,892 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:06:34,200 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 54, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 43, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-21 22:13:14,225 - INFO - Received personal risk request: {'age': 65, 'gender': 'male', 'location': 'Delhi', 'pre_existing_conditions': ['diabetes', 'hypertension'], 'symptoms': ['fever', 'dry cough'], 'lifestyle_factors': ['sedentary', 'smoker']}
+2025-07-21 22:13:14,225 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 65 | Gender: male | Location: Delhi | Pre-existing conditions: diabetes, hypertension | Symptoms: fever, dry cough | Lifestyle factors: sedentary, smoker | Please return a brief medical risk assessment.
+2025-07-21 22:15:25,324 - ERROR - Error in personal risk assessment: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+Traceback (most recent call last):
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 52, in assess_risk
+    response_text = await asyncio.get_event_loop().run_in_executor(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Old Data\Amarjeet\Pandemic intelligence & response OS\api\routes\personal_risk.py", line 41, in run_gemini
+    response = model.generate_content(prompt)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "C:\Users\Amarjeet Singh\AppData\Local\Programs\Python\Python310\lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-07-21 22:37:11,852 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e73bf-2cf2d4867d2b33c50387bd87;0c0d67cc-b7d4-436d-ba8e-5af8a400701e)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:38:49,254 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7421-4067755c572bd5c92c1ec819;d3521428-d0f0-4e3d-afd9-a616c0cc3aa4)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:39:05,675 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7431-411da661670d7fb74cbe1c97;afaccd9b-5fb8-4b53-8cb8-0b990c00b7d5)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:39:22,231 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7442-23540fd736c6b05d747c7f6a;dbc20bee-9e94-48b9-8c8d-aca137bc359d)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:39:27,232 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7447-43b9846d1fdcff3b0d70b021;97743efb-64e3-4b7c-aea9-81eb6e353f1f)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:40:13,421 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7475-707a846b2cbd8cf90d16ffd7;ead87ded-6e57-4d62-903e-e45fa0ea6864)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:50:02,427 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e76c2-2cb2bfb208109a9b4f3f0347;fee8a1fb-f771-4e6c-a4b5-95ee6c07a886)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:51:01,130 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e76fd-3a2391b1516ab0cf250c6423;9c5de060-e1e0-4d69-bc8d-a307819ec4bd)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:51:26,292 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7716-5ba717657173403b301b90a6;d069ab61-c61c-434f-b6a5-43dc13660a95)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:04,065 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7778-694bbdd92aa974dc0c099300;012b2996-3371-4752-aaf5-1757656e43be)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:08,604 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e777c-158ab264783a3a1d3aa141f1;3022350e-a58e-46e3-a39e-f9db9bdad980)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:19,890 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e7788-59d0583a7e580fa67996d5dc;03b9bb65-63b0-4b2a-93e2-a222ed6de489)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:24,333 - ERROR - Failed to load Mistral model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1.
+401 Client Error. (Request ID: Root=1-687e778c-7e647d63536691dd4fcb186d;eebab741-aa18-47a8-8006-059c8f97a701)
+
+Cannot access gated repo for url https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/config.json.
+Access to model mistralai/Mistral-7B-Instruct-v0.1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-07-21 22:53:59,036 - INFO - Received personal risk request: {'age': 45, 'gender': 'Male', 'location': 'Mumbai', 'pre_existing_conditions': ['hypertension'], 'symptoms': ['fever', 'cough'], 'lifestyle_factors': ['smoking', 'sedentary']}
+2025-07-21 22:53:59,037 - INFO - Prompt constructed: Assess the health risk for the following individual: | Age: 45 | Gender: Male | Location: Mumbai | Pre-existing conditions: hypertension | Symptoms: fever, cough | Lifestyle factors: smoking, sedentary | Please return a brief medical risk assessment.
+2025-07-21 22:54:14,228 - INFO - Ollama response:  Based on the provided information, this individual is a 45-year-old male living in Mumbai with pre-existing hypertension and current symptoms of fever and cough. Additionally, he is a smoker and leads a sedentary lifestyle. |  | Given these factors, the current symptoms suggest a possible respiratory infection. The pre-existing condition of hypertension combined with smoking increases the risk for complications from this illness, such as pneumonia or acute respiratory distress syndrome (ARDS). It's crucial that he seeks medical attention promptly to minimize potential health risks and receive appropriate treatment. |  | As a precautionary measure due to his compromised health status, it is advisable for him to avoid crowds and practice social distancing to reduce the risk of contracting or spreading infectious diseases like COVID-19. Regular monitoring of blood pressure and overall health conditions should also be maintained.

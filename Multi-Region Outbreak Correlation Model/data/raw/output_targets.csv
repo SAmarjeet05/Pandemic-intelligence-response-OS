@@ -1,0 +1,11 @@
+region,spread_prob,transmission_route_from,eta_days,policy_effectiveness_score
+Pune,0.72,Mumbai,2,0.6
+Jaipur,0.65,Delhi,3,0.7
+Hyderabad,0.8,Bengaluru,1,0.5
+Chennai,0.78,Hyderabad,2,0.4
+Kolkata,0.81,Chennai,2,0.5
+Ahmedabad,0.6,Mumbai,4,0.8
+Lucknow,0.75,Delhi,2,0.6
+Mumbai,0.4,Pune,5,0.9
+Bengaluru,0.55,Hyderabad,4,0.7
+Delhi,0.5,Jaipur,3,0.8

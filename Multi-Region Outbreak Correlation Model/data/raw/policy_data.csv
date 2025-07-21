@@ -1,0 +1,300 @@
+region,date,policy_type,description
+Delhi,2025-07-19,Travel Restriction,Inter-city bus services halted
+Mumbai,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Bengaluru,2025-07-17,Lockdown,Partial lockdown in red zones
+Kolkata,2025-07-20,Travel Ban,Flights from Chennai suspended
+Pune,2025-07-19,Social Distancing,Public events restricted
+Hyderabad,2025-07-16,Quarantine Mandate,7-day quarantine for inter-state
+Chennai,2025-07-20,Travel Advisory,Avoid travel to Kolkata
+Ahmedabad,2025-07-18,Mask Mandate,Masks compulsory in public
+Lucknow,2025-07-20,Testing Ramp-Up,3x testing capacity implemented
+Jaipur,2025-07-17,School Closure,All schools closed for 2 weeks
+Delhi,2025-07-18,Mask Mandate,Masks required in all public places
+Mumbai,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Bengaluru,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Kolkata,2025-07-19,Curfew,Night curfew from 10 PM to 5 AM
+Pune,2025-07-18,Lockdown,Weekend lockdown in city
+Hyderabad,2025-07-17,Travel Ban,Flights to Delhi suspended
+Chennai,2025-07-19,School Closure,Schools closed for 1 week
+Ahmedabad,2025-07-17,Quarantine Mandate,14-day quarantine for travelers
+Lucknow,2025-07-18,Travel Restriction,Trains to Mumbai halted
+Jaipur,2025-07-19,Mask Mandate,Masks compulsory in markets
+Delhi,2025-07-17,Social Distancing,Markets open with limited entry
+Mumbai,2025-07-20,School Closure,Schools closed for 2 weeks
+Bengaluru,2025-07-18,Testing Ramp-Up,Mobile testing vans deployed
+Kolkata,2025-07-18,Travel Advisory,Avoid travel to Mumbai
+Pune,2025-07-20,Curfew,Night curfew from 8 PM to 6 AM
+Hyderabad,2025-07-19,Mask Mandate,Masks required in offices
+Chennai,2025-07-18,Testing Ramp-Up,Testing booths at railway stations
+Ahmedabad,2025-07-19,Social Distancing,Public parks open with restrictions
+Lucknow,2025-07-17,Lockdown,Lockdown in containment zones
+Jaipur,2025-07-18,Travel Ban,Flights to Kolkata suspended
+Delhi,2025-07-16,Curfew,Night curfew from 8 PM to 5 AM
+Mumbai,2025-07-17,Social Distancing,Markets open with limited entry
+Bengaluru,2025-07-16,Mask Mandate,Masks required in all offices
+Kolkata,2025-07-18,School Closure,Schools closed for 1 week
+Pune,2025-07-17,Travel Ban,Flights to Delhi suspended
+Hyderabad,2025-07-18,Testing Ramp-Up,Testing booths at bus stations
+Chennai,2025-07-17,Curfew,Night curfew from 9 PM to 6 AM
+Ahmedabad,2025-07-16,Lockdown,Lockdown in containment zones
+Lucknow,2025-07-19,Mask Mandate,Masks compulsory in public
+Jaipur,2025-07-16,Social Distancing,Restaurants at 50% capacity
+Delhi,2025-07-15,School Closure,Schools closed for 2 weeks
+Mumbai,2025-07-16,Travel Restriction,Trains to Pune halted
+Bengaluru,2025-07-15,Testing Ramp-Up,Mobile testing vans deployed
+Kolkata,2025-07-17,Travel Advisory,Avoid travel to Mumbai
+Pune,2025-07-16,Curfew,Night curfew from 10 PM to 5 AM
+Hyderabad,2025-07-15,Lockdown,Partial lockdown in red zones
+Chennai,2025-07-16,Mask Mandate,Masks required in all public places
+Ahmedabad,2025-07-15,Travel Ban,Flights to Kolkata suspended
+Lucknow,2025-07-16,School Closure,Schools closed for 1 week
+Jaipur,2025-07-15,Testing Ramp-Up,Drive-through testing centers opened
+Delhi,2025-07-14,Travel Advisory,Avoid travel to Lucknow
+Mumbai,2025-07-15,Mask Mandate,Masks compulsory in markets
+Bengaluru,2025-07-14,Curfew,Night curfew from 8 PM to 6 AM
+Kolkata,2025-07-16,Lockdown,Lockdown in containment zones
+Pune,2025-07-15,School Closure,Schools closed for 2 weeks
+Hyderabad,2025-07-14,Travel Restriction,Inter-city bus services halted
+Chennai,2025-07-15,Testing Ramp-Up,Testing booths at railway stations
+Ahmedabad,2025-07-14,Social Distancing,Public parks open with restrictions
+Lucknow,2025-07-15,Curfew,Night curfew from 9 PM to 5 AM
+Jaipur,2025-07-14,Lockdown,Lockdown in containment zones
+Delhi,2025-07-13,Mask Mandate,Masks required in offices
+Mumbai,2025-07-14,Testing Ramp-Up,Mobile testing vans deployed
+Bengaluru,2025-07-13,Travel Ban,Flights to Delhi suspended
+Kolkata,2025-07-15,School Closure,Schools closed for 1 week
+Pune,2025-07-14,Curfew,Night curfew from 10 PM to 5 AM
+Hyderabad,2025-07-13,Social Distancing,Restaurants at 50% capacity
+Chennai,2025-07-14,Travel Advisory,Avoid travel to Kolkata
+Ahmedabad,2025-07-13,Testing Ramp-Up,Drive-through testing centers opened
+Lucknow,2025-07-14,Mask Mandate,Masks compulsory in public
+Jaipur,2025-07-13,School Closure,Schools closed for 2 weeks
+Delhi,2025-07-12,Lockdown,Partial lockdown in red zones
+Mumbai,2025-07-13,Travel Restriction,Trains to Pune halted
+Bengaluru,2025-07-12,Testing Ramp-Up,Testing booths at bus stations
+Kolkata,2025-07-14,Curfew,Night curfew from 8 PM to 6 AM
+Pune,2025-07-13,Mask Mandate,Masks required in all public places
+Hyderabad,2025-07-12,School Closure,Schools closed for 1 week
+Chennai,2025-07-13,Lockdown,Lockdown in containment zones
+Ahmedabad,2025-07-12,Travel Ban,Flights to Kolkata suspended
+Lucknow,2025-07-13,Testing Ramp-Up,Drive-through testing centers opened
+Jaipur,2025-07-12,Travel Advisory,Avoid travel to Mumbai
+Delhi,2025-07-11,Curfew,Night curfew from 9 PM to 6 AM
+Mumbai,2025-07-12,School Closure,Schools closed for 2 weeks
+Bengaluru,2025-07-11,Mask Mandate,Masks required in offices
+Kolkata,2025-07-13,Lockdown,Lockdown in containment zones
+Pune,2025-07-12,Testing Ramp-Up,Mobile testing vans deployed
+Hyderabad,2025-07-11,Travel Ban,Flights to Delhi suspended
+Chennai,2025-07-12,Mask Mandate,Masks required in all public places
+Ahmedabad,2025-07-11,Curfew,Night curfew from 8 PM to 5 AM
+Lucknow,2025-07-12,School Closure,Schools closed for 1 week
+Jaipur,2025-07-11,Testing Ramp-Up,Testing booths at railway stations
+Delhi,2025-07-10,Travel Restriction,Inter-city bus services halted
+Mumbai,2025-07-11,Lockdown,Lockdown in containment zones
+Bengaluru,2025-07-10,School Closure,Schools closed for 2 weeks
+Kolkata,2025-07-12,Mask Mandate,Masks compulsory in public
+Pune,2025-07-11,Curfew,Night curfew from 10 PM to 5 AM
+Hyderabad,2025-07-10,Testing Ramp-Up,Drive-through testing centers opened
+Chennai,2025-07-11,Travel Advisory,Avoid travel to Kolkata
+Ahmedabad,2025-07-10,Social Distancing,Public parks open with restrictions
+Lucknow,2025-07-11,Curfew,Night curfew from 9 PM to 5 AM
+Jaipur,2025-07-10,Lockdown,Lockdown in containment zones
+Delhi,2025-07-09,Mask Mandate,Masks required in offices
+Mumbai,2025-07-10,Testing Ramp-Up,Mobile testing vans deployed
+Bengaluru,2025-07-09,Travel Ban,Flights to Delhi suspended
+Kolkata,2025-07-11,School Closure,Schools closed for 1 week
+Pune,2025-07-10,Curfew,Night curfew from 8 PM to 6 AM
+Hyderabad,2025-07-09,Social Distancing,Restaurants at 50% capacity
+Chennai,2025-07-10,Travel Advisory,Avoid travel to Kolkata
+Ahmedabad,2025-07-09,Testing Ramp-Up,Drive-through testing centers opened
+Lucknow,2025-07-10,Mask Mandate,Masks compulsory in public
+Jaipur,2025-07-09,School Closure,Schools closed for 2 weeks
+Uttar Pradesh,2025-07-14,Lockdown,Lockdown in containment zones
+Uttar Pradesh,2025-07-15,Mask Mandate,Masks compulsory in public
+Uttar Pradesh,2025-07-16,Travel Restriction,Inter-city bus services halted
+Uttar Pradesh,2025-07-17,School Closure,Schools closed for 2 weeks
+Uttar Pradesh,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Uttar Pradesh,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Uttar Pradesh,2025-07-20,Social Distancing,Markets open with limited entry
+Maharashtra,2025-07-14,Lockdown,Partial lockdown in red zones
+Maharashtra,2025-07-15,Mask Mandate,Masks required in all public places
+Maharashtra,2025-07-16,Travel Ban,Flights to Delhi suspended
+Maharashtra,2025-07-17,School Closure,Schools closed for 1 week
+Maharashtra,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Maharashtra,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Maharashtra,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Bihar,2025-07-14,Lockdown,Lockdown in containment zones
+Bihar,2025-07-15,Mask Mandate,Masks compulsory in public
+Bihar,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Bihar,2025-07-17,School Closure,Schools closed for 2 weeks
+Bihar,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Bihar,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Bihar,2025-07-20,Social Distancing,Markets open with limited entry
+West Bengal,2025-07-14,Lockdown,Partial lockdown in red zones
+West Bengal,2025-07-15,Mask Mandate,Masks required in all public places
+West Bengal,2025-07-16,Travel Ban,Flights to Delhi suspended
+West Bengal,2025-07-17,School Closure,Schools closed for 1 week
+West Bengal,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+West Bengal,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+West Bengal,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Madhya Pradesh,2025-07-14,Lockdown,Lockdown in containment zones
+Madhya Pradesh,2025-07-15,Mask Mandate,Masks compulsory in public
+Madhya Pradesh,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Madhya Pradesh,2025-07-17,School Closure,Schools closed for 2 weeks
+Madhya Pradesh,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Madhya Pradesh,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Madhya Pradesh,2025-07-20,Social Distancing,Markets open with limited entry
+Tamil Nadu,2025-07-14,Lockdown,Partial lockdown in red zones
+Tamil Nadu,2025-07-15,Mask Mandate,Masks required in all public places
+Tamil Nadu,2025-07-16,Travel Ban,Flights to Delhi suspended
+Tamil Nadu,2025-07-17,School Closure,Schools closed for 1 week
+Tamil Nadu,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Tamil Nadu,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Tamil Nadu,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Rajasthan,2025-07-14,Lockdown,Lockdown in containment zones
+Rajasthan,2025-07-15,Mask Mandate,Masks compulsory in public
+Rajasthan,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Rajasthan,2025-07-17,School Closure,Schools closed for 2 weeks
+Rajasthan,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Rajasthan,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Rajasthan,2025-07-20,Social Distancing,Markets open with limited entry
+Karnataka,2025-07-14,Lockdown,Partial lockdown in red zones
+Karnataka,2025-07-15,Mask Mandate,Masks required in all public places
+Karnataka,2025-07-16,Travel Ban,Flights to Delhi suspended
+Karnataka,2025-07-17,School Closure,Schools closed for 1 week
+Karnataka,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Karnataka,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Karnataka,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Gujarat,2025-07-14,Lockdown,Lockdown in containment zones
+Gujarat,2025-07-15,Mask Mandate,Masks compulsory in public
+Gujarat,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Gujarat,2025-07-17,School Closure,Schools closed for 2 weeks
+Gujarat,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Gujarat,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Gujarat,2025-07-20,Social Distancing,Markets open with limited entry
+Odisha,2025-07-14,Lockdown,Partial lockdown in red zones
+Odisha,2025-07-15,Mask Mandate,Masks required in all public places
+Odisha,2025-07-16,Travel Ban,Flights to Delhi suspended
+Odisha,2025-07-17,School Closure,Schools closed for 1 week
+Odisha,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Odisha,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Odisha,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Kerala,2025-07-14,Lockdown,Lockdown in containment zones
+Kerala,2025-07-15,Mask Mandate,Masks compulsory in public
+Kerala,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Kerala,2025-07-17,School Closure,Schools closed for 2 weeks
+Kerala,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Kerala,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Kerala,2025-07-20,Social Distancing,Markets open with limited entry
+Telangana,2025-07-14,Lockdown,Partial lockdown in red zones
+Telangana,2025-07-15,Mask Mandate,Masks required in all public places
+Telangana,2025-07-16,Travel Ban,Flights to Delhi suspended
+Telangana,2025-07-17,School Closure,Schools closed for 1 week
+Telangana,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Telangana,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Telangana,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Assam,2025-07-14,Lockdown,Lockdown in containment zones
+Assam,2025-07-15,Mask Mandate,Masks compulsory in public
+Assam,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Assam,2025-07-17,School Closure,Schools closed for 2 weeks
+Assam,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Assam,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Assam,2025-07-20,Social Distancing,Markets open with limited entry
+Punjab,2025-07-14,Lockdown,Partial lockdown in red zones
+Punjab,2025-07-15,Mask Mandate,Masks required in all public places
+Punjab,2025-07-16,Travel Ban,Flights to Delhi suspended
+Punjab,2025-07-17,School Closure,Schools closed for 1 week
+Punjab,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Punjab,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Punjab,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Chhattisgarh,2025-07-14,Lockdown,Lockdown in containment zones
+Chhattisgarh,2025-07-15,Mask Mandate,Masks compulsory in public
+Chhattisgarh,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Chhattisgarh,2025-07-17,School Closure,Schools closed for 2 weeks
+Chhattisgarh,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Chhattisgarh,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Chhattisgarh,2025-07-20,Social Distancing,Markets open with limited entry
+Haryana,2025-07-14,Lockdown,Partial lockdown in red zones
+Haryana,2025-07-15,Mask Mandate,Masks required in all public places
+Haryana,2025-07-16,Travel Ban,Flights to Delhi suspended
+Haryana,2025-07-17,School Closure,Schools closed for 1 week
+Haryana,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Haryana,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Haryana,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Jharkhand,2025-07-14,Lockdown,Lockdown in containment zones
+Jharkhand,2025-07-15,Mask Mandate,Masks required in all public places
+Jharkhand,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Jharkhand,2025-07-17,School Closure,Schools closed for 2 weeks
+Jharkhand,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Jharkhand,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Jharkhand,2025-07-20,Social Distancing,Markets open with limited entry
+Uttarakhand,2025-07-14,Lockdown,Partial lockdown in red zones
+Uttarakhand,2025-07-15,Mask Mandate,Masks required in all public places
+Uttarakhand,2025-07-16,Travel Ban,Flights to Delhi suspended
+Uttarakhand,2025-07-17,School Closure,Schools closed for 1 week
+Uttarakhand,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Uttarakhand,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Uttarakhand,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Himachal Pradesh,2025-07-14,Lockdown,Lockdown in containment zones
+Himachal Pradesh,2025-07-15,Mask Mandate,Masks required in all public places
+Himachal Pradesh,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Himachal Pradesh,2025-07-17,School Closure,Schools closed for 2 weeks
+Himachal Pradesh,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Himachal Pradesh,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Himachal Pradesh,2025-07-20,Social Distancing,Markets open with limited entry
+Tripura,2025-07-14,Lockdown,Partial lockdown in red zones
+Tripura,2025-07-15,Mask Mandate,Masks required in all public places
+Tripura,2025-07-16,Travel Ban,Flights to Delhi suspended
+Tripura,2025-07-17,School Closure,Schools closed for 1 week
+Tripura,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Tripura,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Tripura,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Meghalaya,2025-07-14,Lockdown,Lockdown in containment zones
+Meghalaya,2025-07-15,Mask Mandate,Masks required in all public places
+Meghalaya,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Meghalaya,2025-07-17,School Closure,Schools closed for 2 weeks
+Meghalaya,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Meghalaya,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Meghalaya,2025-07-20,Social Distancing,Markets open with limited entry
+Manipur,2025-07-14,Lockdown,Partial lockdown in red zones
+Manipur,2025-07-15,Mask Mandate,Masks required in all public places
+Manipur,2025-07-16,Travel Ban,Flights to Delhi suspended
+Manipur,2025-07-17,School Closure,Schools closed for 1 week
+Manipur,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Manipur,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Manipur,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Nagaland,2025-07-14,Lockdown,Lockdown in containment zones
+Nagaland,2025-07-15,Mask Mandate,Masks required in all public places
+Nagaland,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Nagaland,2025-07-17,School Closure,Schools closed for 2 weeks
+Nagaland,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Nagaland,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Nagaland,2025-07-20,Social Distancing,Markets open with limited entry
+Goa,2025-07-14,Lockdown,Partial lockdown in red zones
+Goa,2025-07-15,Mask Mandate,Masks required in all public places
+Goa,2025-07-16,Travel Ban,Flights to Delhi suspended
+Goa,2025-07-17,School Closure,Schools closed for 1 week
+Goa,2025-07-18,Curfew,Night curfew from 8 PM to 6 AM
+Goa,2025-07-19,Testing Ramp-Up,Mobile testing vans deployed
+Goa,2025-07-20,Social Distancing,Restaurants at 50% capacity
+Arunachal Pradesh,2025-07-14,Lockdown,Lockdown in containment zones
+Arunachal Pradesh,2025-07-15,Mask Mandate,Masks required in all public places
+Arunachal Pradesh,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Arunachal Pradesh,2025-07-17,School Closure,Schools closed for 2 weeks
+Arunachal Pradesh,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Arunachal Pradesh,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Arunachal Pradesh,2025-07-20,Social Distancing,Markets open with limited entry
+Mizoram,2025-07-14,Lockdown,Partial lockdown in red zones
+Mizoram,2025-07-15,Mask Mandate,Masks required in all public places
+Mizoram,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Mizoram,2025-07-17,School Closure,Schools closed for 2 weeks
+Mizoram,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Mizoram,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Mizoram,2025-07-20,Social Distancing,Markets open with limited entry
+Sikkim,2025-07-14,Lockdown,Lockdown in containment zones
+Sikkim,2025-07-15,Mask Mandate,Masks required in all public places
+Sikkim,2025-07-16,Travel Restriction,Trains to Mumbai halted
+Sikkim,2025-07-17,School Closure,Schools closed for 2 weeks
+Sikkim,2025-07-18,Curfew,Night curfew from 9 PM to 5 AM
+Sikkim,2025-07-19,Testing Ramp-Up,Drive-through testing centers opened
+Sikkim,2025-07-20,Social Distancing,Markets open with limited entry

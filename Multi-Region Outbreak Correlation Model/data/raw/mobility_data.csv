@@ -1,0 +1,280 @@
+date,from_region,to_region,transport_mode,daily_travelers
+2025-07-20,Mumbai,Pune,Train,15000
+2025-07-20,Delhi,Lucknow,Bus,10000
+2025-07-20,Bengaluru,Hyderabad,Flight,4000
+2025-07-20,Chennai,Kolkata,Train,7000
+2025-07-20,Mumbai,Ahmedabad,Flight,3000
+2025-07-20,Delhi,Jaipur,Carpool,2000
+2025-07-20,Hyderabad,Bengaluru,Bus,5000
+2025-07-20,Kolkata,Chennai,Flight,2500
+2025-07-20,Pune,Mumbai,Bus,8000
+2025-07-20,Lucknow,Delhi,Train,11000
+2025-07-19,Jaipur,Delhi,Bus,6000
+2025-07-19,Ahmedabad,Mumbai,Train,4000
+2025-07-19,Pune,Bengaluru,Flight,3500
+2025-07-19,Hyderabad,Chennai,Bus,4500
+2025-07-19,Kolkata,Jaipur,Carpool,2200
+2025-07-19,Delhi,Mumbai,Flight,9000
+2025-07-19,Bengaluru,Pune,Train,5000
+2025-07-19,Chennai,Hyderabad,Flight,3200
+2025-07-19,Mumbai,Kolkata,Bus,7000
+2025-07-19,Ahmedabad,Jaipur,Train,2800
+2025-07-19,Lucknow,Chennai,Flight,2100
+2025-07-19,Pune,Ahmedabad,Bus,3300
+2025-07-19,Jaipur,Bengaluru,Carpool,1700
+2025-07-19,Delhi,Hyderabad,Train,8000
+2025-07-19,Bengaluru,Chennai,Bus,4200
+2025-07-19,Kolkata,Mumbai,Flight,2700
+2025-07-19,Hyderabad,Pune,Train,3600
+2025-07-19,Chennai,Delhi,Bus,3900
+2025-07-19,Mumbai,Jaipur,Carpool,2500
+2025-07-19,Ahmedabad,Kolkata,Flight,1800
+2025-07-18,Mumbai,Pune,Train,14000
+2025-07-18,Delhi,Lucknow,Bus,9500
+2025-07-18,Bengaluru,Hyderabad,Flight,4200
+2025-07-18,Chennai,Kolkata,Train,6800
+2025-07-18,Mumbai,Ahmedabad,Flight,3100
+2025-07-18,Delhi,Jaipur,Carpool,2100
+2025-07-18,Hyderabad,Bengaluru,Bus,4800
+2025-07-18,Kolkata,Chennai,Flight,2600
+2025-07-18,Pune,Mumbai,Bus,8200
+2025-07-18,Lucknow,Delhi,Train,10800
+2025-07-18,Jaipur,Delhi,Bus,6200
+2025-07-18,Ahmedabad,Mumbai,Train,4100
+2025-07-18,Pune,Bengaluru,Flight,3400
+2025-07-18,Hyderabad,Chennai,Bus,4400
+2025-07-18,Kolkata,Jaipur,Carpool,2300
+2025-07-18,Delhi,Mumbai,Flight,9100
+2025-07-18,Bengaluru,Pune,Train,5100
+2025-07-18,Chennai,Hyderabad,Flight,3300
+2025-07-18,Mumbai,Kolkata,Bus,7100
+2025-07-18,Ahmedabad,Jaipur,Train,2900
+2025-07-18,Lucknow,Chennai,Flight,2200
+2025-07-18,Pune,Ahmedabad,Bus,3400
+2025-07-18,Jaipur,Bengaluru,Carpool,1800
+2025-07-18,Delhi,Hyderabad,Train,8100
+2025-07-18,Bengaluru,Chennai,Bus,4300
+2025-07-18,Kolkata,Mumbai,Flight,2800
+2025-07-18,Hyderabad,Pune,Train,3700
+2025-07-18,Chennai,Delhi,Bus,4000
+2025-07-18,Mumbai,Jaipur,Carpool,2600
+2025-07-18,Ahmedabad,Kolkata,Flight,1900
+2025-07-17,Mumbai,Pune,Train,13500
+2025-07-17,Delhi,Lucknow,Bus,9000
+2025-07-17,Bengaluru,Hyderabad,Flight,4300
+2025-07-17,Chennai,Kolkata,Train,6600
+2025-07-17,Mumbai,Ahmedabad,Flight,3200
+2025-07-17,Delhi,Jaipur,Carpool,2200
+2025-07-17,Hyderabad,Bengaluru,Bus,4700
+2025-07-17,Kolkata,Chennai,Flight,2700
+2025-07-17,Pune,Mumbai,Bus,8300
+2025-07-17,Lucknow,Delhi,Train,10600
+2025-07-17,Jaipur,Delhi,Bus,6300
+2025-07-17,Ahmedabad,Mumbai,Train,4200
+2025-07-17,Pune,Bengaluru,Flight,3300
+2025-07-17,Hyderabad,Chennai,Bus,4300
+2025-07-17,Kolkata,Jaipur,Carpool,2400
+2025-07-17,Delhi,Mumbai,Flight,9200
+2025-07-17,Bengaluru,Pune,Train,5200
+2025-07-17,Chennai,Hyderabad,Flight,3400
+2025-07-17,Mumbai,Kolkata,Bus,7200
+2025-07-17,Ahmedabad,Jaipur,Train,3000
+2025-07-17,Lucknow,Chennai,Flight,2300
+2025-07-17,Pune,Ahmedabad,Bus,3500
+2025-07-17,Jaipur,Bengaluru,Carpool,1900
+2025-07-17,Delhi,Hyderabad,Train,8200
+2025-07-17,Bengaluru,Chennai,Bus,4400
+2025-07-17,Kolkata,Mumbai,Flight,2900
+2025-07-17,Hyderabad,Pune,Train,3800
+2025-07-17,Chennai,Delhi,Bus,4100
+2025-07-17,Mumbai,Jaipur,Carpool,2700
+2025-07-17,Ahmedabad,Kolkata,Flight,2000
+2025-07-14,Uttar Pradesh,Delhi,Train,12000
+2025-07-15,Uttar Pradesh,Bihar,Bus,9000
+2025-07-16,Uttar Pradesh,Madhya Pradesh,Carpool,7000
+2025-07-17,Uttar Pradesh,Rajasthan,Train,8000
+2025-07-18,Uttar Pradesh,Karnataka,Flight,5000
+2025-07-19,Uttar Pradesh,Gujarat,Bus,6000
+2025-07-20,Uttar Pradesh,West Bengal,Train,9500
+2025-07-14,Maharashtra,Gujarat,Train,11000
+2025-07-15,Maharashtra,Madhya Pradesh,Bus,8500
+2025-07-16,Maharashtra,Goa,Carpool,4000
+2025-07-17,Maharashtra,Karnataka,Train,9000
+2025-07-18,Maharashtra,Telangana,Flight,4500
+2025-07-19,Maharashtra,Chhattisgarh,Bus,5000
+2025-07-20,Maharashtra,Rajasthan,Train,8000
+2025-07-14,Bihar,Uttar Pradesh,Train,7000
+2025-07-15,Bihar,West Bengal,Bus,6000
+2025-07-16,Bihar,Jharkhand,Carpool,3500
+2025-07-17,Bihar,Odisha,Train,4000
+2025-07-18,Bihar,Assam,Flight,2500
+2025-07-19,Bihar,Chhattisgarh,Bus,3000
+2025-07-20,Bihar,Madhya Pradesh,Train,5000
+2025-07-14,West Bengal,Bihar,Train,8000
+2025-07-15,West Bengal,Odisha,Bus,7000
+2025-07-16,West Bengal,Assam,Carpool,4000
+2025-07-17,West Bengal,Sikkim,Train,3000
+2025-07-18,West Bengal,Tripura,Flight,2000
+2025-07-19,West Bengal,Meghalaya,Bus,2500
+2025-07-20,West Bengal,Arunachal Pradesh,Train,3500
+2025-07-14,Madhya Pradesh,Uttar Pradesh,Train,6000
+2025-07-15,Madhya Pradesh,Rajasthan,Bus,5000
+2025-07-16,Madhya Pradesh,Gujarat,Carpool,3000
+2025-07-17,Madhya Pradesh,Chhattisgarh,Train,3500
+2025-07-18,Madhya Pradesh,Maharashtra,Flight,4000
+2025-07-19,Madhya Pradesh,Odisha,Bus,2000
+2025-07-20,Madhya Pradesh,Bihar,Train,2500
+2025-07-14,Tamil Nadu,Kerala,Train,9000
+2025-07-15,Tamil Nadu,Karnataka,Bus,8000
+2025-07-16,Tamil Nadu,Andhra Pradesh,Carpool,5000
+2025-07-17,Tamil Nadu,Telangana,Train,6000
+2025-07-18,Tamil Nadu,Puducherry,Flight,2000
+2025-07-19,Tamil Nadu,Odisha,Bus,3000
+2025-07-20,Tamil Nadu,West Bengal,Train,4000
+2025-07-14,Rajasthan,Gujarat,Train,7000
+2025-07-15,Rajasthan,Madhya Pradesh,Bus,6000
+2025-07-16,Rajasthan,Uttar Pradesh,Carpool,4000
+2025-07-17,Rajasthan,Haryana,Train,3500
+2025-07-18,Rajasthan,Punjab,Flight,2500
+2025-07-19,Rajasthan,Delhi,Bus,5000
+2025-07-20,Rajasthan,Maharashtra,Train,6000
+2025-07-14,Karnataka,Kerala,Train,8000
+2025-07-15,Karnataka,Tamil Nadu,Bus,7000
+2025-07-16,Karnataka,Goa,Carpool,3500
+2025-07-17,Karnataka,Andhra Pradesh,Train,4000
+2025-07-18,Karnataka,Telangana,Flight,3000
+2025-07-19,Karnataka,Maharashtra,Bus,6000
+2025-07-20,Karnataka,Gujarat,Train,5000
+2025-07-14,Gujarat,Rajasthan,Train,6000
+2025-07-15,Gujarat,Maharashtra,Bus,5000
+2025-07-16,Gujarat,Madhya Pradesh,Carpool,3000
+2025-07-17,Gujarat,Goa,Train,2500
+2025-07-18,Gujarat,Delhi,Flight,2000
+2025-07-19,Gujarat,Punjab,Bus,1500
+2025-07-20,Gujarat,Uttar Pradesh,Train,3500
+2025-07-14,Odisha,West Bengal,Train,4000
+2025-07-15,Odisha,Chhattisgarh,Bus,3000
+2025-07-16,Odisha,Jharkhand,Carpool,2000
+2025-07-17,Odisha,Bihar,Train,2500
+2025-07-18,Odisha,Andhra Pradesh,Flight,1500
+2025-07-19,Odisha,Assam,Bus,1000
+2025-07-20,Odisha,Madhya Pradesh,Train,2000
+2025-07-14,Kerala,Tamil Nadu,Train,7000
+2025-07-15,Kerala,Karnataka,Bus,6000
+2025-07-16,Kerala,Goa,Carpool,2500
+2025-07-17,Kerala,Andhra Pradesh,Train,2000
+2025-07-18,Kerala,Puducherry,Flight,1000
+2025-07-19,Kerala,Maharashtra,Bus,3000
+2025-07-20,Kerala,Gujarat,Train,2000
+2025-07-14,Telangana,Andhra Pradesh,Train,5000
+2025-07-15,Telangana,Karnataka,Bus,4000
+2025-07-16,Telangana,Tamil Nadu,Carpool,3000
+2025-07-17,Telangana,Maharashtra,Train,3500
+2025-07-18,Telangana,Chhattisgarh,Flight,2000
+2025-07-19,Telangana,Odisha,Bus,1500
+2025-07-20,Telangana,Kerala,Train,2500
+2025-07-14,Assam,West Bengal,Train,3000
+2025-07-15,Assam,Arunachal Pradesh,Bus,2000
+2025-07-16,Assam,Meghalaya,Carpool,1500
+2025-07-17,Assam,Nagaland,Train,1000
+2025-07-18,Assam,Manipur,Flight,800
+2025-07-19,Assam,Mizoram,Bus,600
+2025-07-20,Assam,Tripura,Train,900
+2025-07-14,Punjab,Haryana,Train,4000
+2025-07-15,Punjab,Himachal Pradesh,Bus,3000
+2025-07-16,Punjab,Jammu & Kashmir,Carpool,2000
+2025-07-17,Punjab,Chandigarh,Train,1500
+2025-07-18,Punjab,Uttarakhand,Flight,1000
+2025-07-19,Punjab,Delhi,Bus,2500
+2025-07-20,Punjab,Rajasthan,Train,2000
+2025-07-14,Chhattisgarh,Madhya Pradesh,Train,2000
+2025-07-15,Chhattisgarh,Odisha,Bus,1500
+2025-07-16,Chhattisgarh,Jharkhand,Carpool,1000
+2025-07-17,Chhattisgarh,Bihar,Train,1200
+2025-07-18,Chhattisgarh,Maharashtra,Flight,800
+2025-07-19,Chhattisgarh,Uttar Pradesh,Bus,600
+2025-07-20,Chhattisgarh,West Bengal,Train,900
+2025-07-14,Haryana,Punjab,Train,3000
+2025-07-15,Haryana,Delhi,Bus,2500
+2025-07-16,Haryana,Uttar Pradesh,Carpool,2000
+2025-07-17,Haryana,Rajasthan,Train,1500
+2025-07-18,Haryana,Himachal Pradesh,Flight,1000
+2025-07-19,Haryana,Chandigarh,Bus,800
+2025-07-20,Haryana,Uttarakhand,Train,1200
+2025-07-14,Jharkhand,Bihar,Train,1500
+2025-07-15,Jharkhand,West Bengal,Bus,1200
+2025-07-16,Jharkhand,Odisha,Carpool,1000
+2025-07-17,Jharkhand,Chhattisgarh,Train,900
+2025-07-18,Jharkhand,Uttar Pradesh,Flight,700
+2025-07-19,Jharkhand,Madhya Pradesh,Bus,600
+2025-07-20,Jharkhand,Rajasthan,Train,800
+2025-07-14,Uttarakhand,Uttar Pradesh,Train,1000
+2025-07-15,Uttarakhand,Himachal Pradesh,Bus,800
+2025-07-16,Uttarakhand,Delhi,Carpool,600
+2025-07-17,Uttarakhand,Punjab,Train,500
+2025-07-18,Uttarakhand,Haryana,Flight,400
+2025-07-19,Uttarakhand,Chandigarh,Bus,300
+2025-07-20,Uttarakhand,Rajasthan,Train,700
+2025-07-14,Himachal Pradesh,Punjab,Train,700
+2025-07-15,Himachal Pradesh,Uttarakhand,Bus,600
+2025-07-16,Himachal Pradesh,Haryana,Carpool,500
+2025-07-17,Himachal Pradesh,Delhi,Train,400
+2025-07-18,Himachal Pradesh,Chandigarh,Flight,300
+2025-07-19,Himachal Pradesh,Jammu & Kashmir,Bus,200
+2025-07-20,Himachal Pradesh,Rajasthan,Train,500
+2025-07-14,Tripura,Assam,Train,400
+2025-07-15,Tripura,Meghalaya,Bus,300
+2025-07-16,Tripura,Mizoram,Carpool,200
+2025-07-17,Tripura,Manipur,Train,150
+2025-07-18,Tripura,Nagaland,Flight,100
+2025-07-19,Tripura,Arunachal Pradesh,Bus,80
+2025-07-20,Tripura,Sikkim,Train,120
+2025-07-14,Meghalaya,Assam,Train,350
+2025-07-15,Meghalaya,Tripura,Bus,250
+2025-07-16,Meghalaya,Nagaland,Carpool,150
+2025-07-17,Meghalaya,Manipur,Train,100
+2025-07-18,Meghalaya,Mizoram,Flight,80
+2025-07-19,Meghalaya,Arunachal Pradesh,Bus,60
+2025-07-20,Meghalaya,Sikkim,Train,90
+2025-07-14,Manipur,Nagaland,Train,300
+2025-07-15,Manipur,Tripura,Bus,200
+2025-07-16,Manipur,Meghalaya,Carpool,100
+2025-07-17,Manipur,Mizoram,Train,80
+2025-07-18,Manipur,Arunachal Pradesh,Flight,60
+2025-07-19,Manipur,Sikkim,Bus,40
+2025-07-20,Manipur,Assam,Train,70
+2025-07-14,Nagaland,Manipur,Train,200
+2025-07-15,Nagaland,Arunachal Pradesh,Bus,150
+2025-07-16,Nagaland,Meghalaya,Carpool,100
+2025-07-17,Nagaland,Tripura,Train,80
+2025-07-18,Nagaland,Mizoram,Flight,60
+2025-07-19,Nagaland,Sikkim,Bus,40
+2025-07-20,Nagaland,Assam,Train,70
+2025-07-14,Goa,Maharashtra,Train,1500
+2025-07-15,Goa,Karnataka,Bus,1200
+2025-07-16,Goa,Kerala,Carpool,800
+2025-07-17,Goa,Tamil Nadu,Train,600
+2025-07-18,Goa,Andhra Pradesh,Flight,400
+2025-07-19,Goa,Telangana,Bus,300
+2025-07-20,Goa,Gujarat,Train,500
+2025-07-14,Arunachal Pradesh,Assam,Train,100
+2025-07-15,Arunachal Pradesh,Nagaland,Bus,80
+2025-07-16,Arunachal Pradesh,Meghalaya,Carpool,60
+2025-07-17,Arunachal Pradesh,Manipur,Train,40
+2025-07-18,Arunachal Pradesh,Mizoram,Flight,30
+2025-07-19,Arunachal Pradesh,Sikkim,Bus,20
+2025-07-20,Arunachal Pradesh,Tripura,Train,30
+2025-07-14,Mizoram,Manipur,Train,80
+2025-07-15,Mizoram,Tripura,Bus,60
+2025-07-16,Mizoram,Meghalaya,Carpool,40
+2025-07-17,Mizoram,Nagaland,Train,30
+2025-07-18,Mizoram,Arunachal Pradesh,Flight,20
+2025-07-19,Mizoram,Sikkim,Bus,10
+2025-07-20,Mizoram,Assam,Train,20
+2025-07-14,Sikkim,West Bengal,Train,50
+2025-07-15,Sikkim,Assam,Bus,40
+2025-07-16,Sikkim,Meghalaya,Carpool,30
+2025-07-17,Sikkim,Nagaland,Train,20
+2025-07-18,Sikkim,Manipur,Flight,10
+2025-07-19,Sikkim,Tripura,Bus,8
+2025-07-20,Sikkim,Arunachal Pradesh,Train,12
