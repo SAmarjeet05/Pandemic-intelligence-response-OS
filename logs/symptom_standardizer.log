@@ -2,3 +2,7 @@
 2025-07-21 23:12:47,842 - INFO - Standardized output:  Chest Pain, Dyspnea
 2025-07-21 23:15:54,007 - INFO - Standardizing symptoms for input: I feel pain in my chest and I can't breathe properly
 2025-07-21 23:15:57,365 - INFO - Standardized output:  Chest Pain, Dyspnea (Shortness of Breath), Respiratory Insufficiency
+2025-07-21 23:40:53,386 - INFO - Standardizing symptoms for input: I feel pain in my chest and I can't breathe properly
+2025-07-21 23:40:56,096 - INFO - Standardized output:  Chest Pain, Dyspnea
+2025-07-21 23:41:02,627 - INFO - Standardizing symptoms for input: I feel pain in my chest and I can't breathe properly
+2025-07-21 23:41:05,280 - INFO - Standardized output:  Chest Pain, Dyspnea
